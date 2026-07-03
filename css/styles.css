@@ -836,9 +836,23 @@ a {
     background: #232323;
 }
 
+.footer a {
+    color: #777;
+    transition: color 0.3s;
+
+}
+
+.footer a:hover {
+    color: #fff;
+}
+
 .footer__section {
     padding: 2rem;
     border-bottom: 1px solid #393939;
+}
+
+.footer__section .list {
+    margin: 0;
 }
 
 .footer__heading {
@@ -848,6 +862,12 @@ a {
 .footer__brand {
     margin-top: 5rem;
     text-align: center;
+}
+
+.footer__brand img {
+    /* TODO: Consider refactoring this and applying it to all images. */
+    width: 100%;
+    max-width: 230px;
 }
 
 .footer__copyright {

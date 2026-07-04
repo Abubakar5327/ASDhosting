@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Abubakar5327/ASDhosting/issues"
   },
-  "homepage": "https://github.com/Abubakar5327/ASDhosting#readme"
+  "homepage": "https://github.com/Abubakar5327/ASDhosting#readme",
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  }
 }

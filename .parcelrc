@@ -2,5 +2,8 @@
   "extends": "@parcel/config-default",
   "transformers": {
     "images/sprite.svg": ["@parcel/transformer-raw"]
+  },
+  "optimizers": {
+    "*.svg": []
   }
 }
